@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  padding: 0px;
+}
+
+.App-header {
+  background-color: #03520f;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+nav {
+  overflow: hidden;
+  background-color: #03520f;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  transition: all 1.3s ease;
+  background-color: #ddd;
+  color: black;
+}
+
+input,
+select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 13px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 25%;
+  background-color: #03520f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 1.3s ease;
+  background-color: #d0d0d0;
+}
+
+.delsong {
+  width: 25px;
+  background-color: #03520f;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+th {
+  border-radius: 10px;
+  background-color: #b7b9bb;
+  color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  border: 1px solid #070000;
+}
+
+p {
+  text-align: center;
+}
